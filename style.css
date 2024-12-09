@@ -120,14 +120,80 @@
 
 .beir .regular {
     font-family: "Beiruti";
+    font-size: 1.2rem;
 }
 
 .beir .bold {
     font-family: "Beiruti";
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .beir .italic {
     font-family: "Beiruti";
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.osans h3{
+    font-family: "Open Sans";
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.osans .regular {
+    font-family: "Open Sans";
+}
+
+.osans .bold {
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.osans .italic {
+    font-family: "Open Sans";
+    font-style: italic;
+}
+
+.els h3{
+    font-family: "Elsie";
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.els .regular {
+    font-family: "Elsie";
+}
+
+.els .bold {
+    font-family: "Elsie";
+    font-weight: bold;
+}
+
+.els .italic {
+    font-family: "Elsie";
+    font-style: italic;
+}
+
+.rale h3{
+    font-family: "Raleway";
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.rale .regular {
+    font-family: "Raleway";
+}
+
+.rale .bold {
+    font-family: "Raleway";
+    font-weight: bold;
+}
+
+.rale .italic {
+    font-family: "Raleway";
     font-style: italic;
 }
