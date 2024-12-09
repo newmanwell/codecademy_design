@@ -197,3 +197,50 @@
     font-family: "Raleway";
     font-style: italic;
 }
+
+/* Transitions Section */
+
+.scale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scale p {
+    font-weight: bold;
+}
+
+.scale img:hover {
+    transform: scale(1.3);
+    transition-duration: 1s;
+}
+
+.rotate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rotate p {
+    font-weight: bold;
+}
+
+.rotate img:hover {
+    transform: rotate(0.5turn);
+    transition-duration: 1s;
+}
+
+.skew {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skew p {
+    font-weight: bold;
+}
+
+.skew img:hover {
+    transform: skew(30deg, 20deg);
+    transition-duration: 1s;
+}
