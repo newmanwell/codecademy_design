@@ -5,6 +5,7 @@
 .outer_box {
     max-width: auto;
     border: 3px solid black;
+    margin-bottom: 35px;
 }
 
 .inner_box {
@@ -18,6 +19,7 @@
     text-align: center;
 }
 
+/* Color boxes */
 
 .purple {
     background-color: rgb(97, 9, 179);
@@ -105,4 +107,27 @@
     padding: 5px;
     display: flex;
     align-items: center;
+}
+
+/* Font boxes */
+ 
+.beir h3{
+    font-family: "Beiruti";
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.beir .regular {
+    font-family: "Beiruti";
+}
+
+.beir .bold {
+    font-family: "Beiruti";
+    font-weight: bold;
+}
+
+.beir .italic {
+    font-family: "Beiruti";
+    font-style: italic;
 }
